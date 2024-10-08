@@ -5,6 +5,6 @@
     "name": "happy-bee",
     "version": "1.0.0",
     "scripts": {
-        "start": "serve ."
+        "build": "webpack --config webpack.config.js"
     }
 }
