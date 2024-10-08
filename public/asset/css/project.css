@@ -1,0 +1,120 @@
+.back-ground-base {
+    /* background-image: url("https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"); */
+    /* background-size: cover; */
+    background: #ffffff;
+    min-height: 100vh;
+    height: 100vh;
+}
+
+.intro {
+    width: 60%;
+}
+
+.game-screen {
+    width: 930px;
+    height: 560px;
+    background-color: white;
+}
+
+.socer-show {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-1);
+}
+
+.group-right {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    z-index: 999;
+}
+.group-left {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    z-index: 999;
+}
+
+.border-game-screen {
+    border: 16px var(--primary-1) solid;
+}
+
+.close-btn {
+    top: 20px;
+    right: 20px;
+}
+
+.count-down-box {
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.count-alert {
+    font-size: 96px;
+    font-weight: 900;
+    border-radius: 999px;
+    width: 180px;
+    height: 180px;
+}
+
+.start-screen {
+    width: 500px;
+}
+
+.get-score {
+    font-size: 96px;
+    font-weight: 900;
+}
+
+#slider img {
+    height: 100%;
+}
+
+.js-rote {
+    top: 6%;
+    left: -3%;
+    rotate: -45deg;
+}
+.html-rote {
+    top: 6%;
+    right: 5%;
+    rotate: 45deg;
+}
+
+.css-rote {
+    bottom: 2%;
+    left: 2%;
+    rotate: 10deg;
+}
+.figma-rote {
+    bottom: -12%;
+    right: -4%;
+    rotate: -10deg;
+}
+.avatar-wrap {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.avatar {
+    width: 32px;
+    aspect-ratio: 1;
+}
+
+.avatar-name {
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 4px 12px;
+    width: 180px;
+    height: 40px;
+    font-size: 18px;
+    opacity: 80%;
+    /* min-width: 250px; */
+    display: flex;
+    align-items: center;
+    text-overflow: ellipsis;
+    padding-left: 80px !important;
+}
+
+.top-user {
+    width: 600px;
+}
